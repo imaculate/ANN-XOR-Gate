@@ -50,6 +50,7 @@ void train(double* p, string filename){
    }
    myfile.close();
    
+   //perceptron training rule
    int iterations= 100;
    while(iterations>=0){
       for(int i = 0; i< (v.size())/3 ; i++){
